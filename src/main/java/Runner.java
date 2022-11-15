@@ -6,7 +6,7 @@ public class Runner {
         BankAccount bankAccount2 = new BankAccount("John", "Smith", "12/12/1970", 67890, 0);
         BankAccount bankAccount3 = new BankAccount("Taylor", "Swift", "13/12/1989", 131313, 0);
 
-        System.out.println(bankAccount2.firstName);
+
         System.out.println(bankAccount2.deposit());
 
 
