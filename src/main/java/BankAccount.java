@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class BankAccount {
     private String firstName;
     private String lastName;
@@ -59,8 +60,12 @@ public class BankAccount {
     //end of getters and setters
 
     //method for deposit
+
     public int deposit(int balance){
-        return this.balance = (balance + 5);
+        System.out.println("How much do you want to deposit?");
+        Scanner reader = new Scanner(System.in);
+        int depositNum = Integer.parseInt(reader.nextLine());
+        return this.balance = (balance + depositNum);
 
     }
 
