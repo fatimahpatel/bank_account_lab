@@ -5,11 +5,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class BankAccountTest {
 
-    @BeforeEach
-    public void setUp{
-
-    }
-    @Test
+    @Test //this is where my issue is!!
     public void testDeposit(){
         BankAccount bankAcc = new BankAccount()
         //int actual = bankAccount.deposit(bankAccount.getBalance());
