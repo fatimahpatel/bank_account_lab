@@ -21,6 +21,33 @@ public class BankAccount {
         this.firstName = firstName;
     }
 
+    public String getLastName(){
+        return this.lastName;
+    }
+    public void setLastName(String lastName){
+        this.lastName = lastName;
+    }
+    public String getDateOfBirth(){
+        return this.dateOfBirth;
+    }
+
+    public void setDateOfBirth(String dateOfBirth){
+        this.dateOfBirth = dateOfBirth;
+    }
+    public int getAccountNumber(){
+        return this.accountNumber;
+    }
+
+    public void setAccountNumber(int accountNumber){
+        this.accountNumber = accountNumber;
+    }
+
+    public int getBalance(){
+        return this.balance;
+    }
+    public void setBalance(int balance){
+        this.balance = balance;
+    }
 
 }
 
