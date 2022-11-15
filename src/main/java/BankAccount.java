@@ -68,6 +68,9 @@ public class BankAccount {
         return this.balance = (balance + depositNum);
 
     }
+    public int withdrawal(int balance){
+
+    }
 
 }
 
