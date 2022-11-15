@@ -1,9 +1,9 @@
 public class BankAccount {
-    String firstName;
-    String lastName;
+    private String firstName;
+    private String lastName;
     private String dateOfBirth;
     private int accountNumber;
-    int balance;
+    private int balance;
     public BankAccount(String firstName, String lastName,String dateOfBirth, int accountNumber, int balance){ //constructor
         this.firstName = firstName;
         this.lastName = lastName;
