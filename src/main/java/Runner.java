@@ -1,6 +1,7 @@
 public class Runner {
     public static void main(String[] args){ //'main' method
-        BankAccount bankAccount = new BankAccount();
+        //below are the arguments in ORDER
+        BankAccount bankAccount = new BankAccount("Fatimah", "Patel", "21/10/1999", 12345, 0);
 
     }
 }
