@@ -72,7 +72,7 @@ public class BankAccount {
         System.out.println("How much would you like to withdraw?");
         Scanner reader = new Scanner(System.in);
         int withdrawNum = Integer.parseInt(reader.nextLine());
-        return this.balance = (balance - withdrawNum)
+        return this.balance = (balance - withdrawNum);
 
     }
 
