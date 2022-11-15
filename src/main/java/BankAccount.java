@@ -56,6 +56,13 @@ public class BankAccount {
     public void setBalance(int balance){
         this.balance = balance;
     }
+    //end of getters and setters
+
+    //method for deposit
+    public int deposit(int balance){
+        int this.balance = (int balance + 5);
+
+    }
 
 }
 
