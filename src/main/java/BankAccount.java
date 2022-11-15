@@ -13,8 +13,8 @@ public class BankAccount {
     }
 
 
-    void deposit(int balance){
-        System.out.println("You have this much money in your account: " + balance);
+    String deposit(int balance){
+        return "You have this much money in your account: " + balance;
 
     }
 }
