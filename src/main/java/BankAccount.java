@@ -13,6 +13,8 @@ public class BankAccount {
     }
 
     //Getters and Setters
+
+    //getter and setter for firstName
     public String getFirstName() {
         return this.firstName;
     }
@@ -21,12 +23,15 @@ public class BankAccount {
         this.firstName = firstName;
     }
 
+    //getter and setter for lastName
     public String getLastName(){
         return this.lastName;
     }
     public void setLastName(String lastName){
         this.lastName = lastName;
     }
+
+    //getter and setter for dateOfBirth
     public String getDateOfBirth(){
         return this.dateOfBirth;
     }
@@ -34,6 +39,8 @@ public class BankAccount {
     public void setDateOfBirth(String dateOfBirth){
         this.dateOfBirth = dateOfBirth;
     }
+
+    //getter and setter for AccountNumber
     public int getAccountNumber(){
         return this.accountNumber;
     }
@@ -42,6 +49,7 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
 
+    //getter and setter for balance
     public int getBalance(){
         return this.balance;
     }
