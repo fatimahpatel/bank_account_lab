@@ -7,6 +7,7 @@ public class Runner {
         BankAccount bankAccount3 = new BankAccount("Taylor", "Swift", "13/12/1989", 131313, 0);
 
         System.out.println(bankAccount2.firstName);
+        bankAccount2.deposit(8);
 
 
 
