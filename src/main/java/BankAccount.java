@@ -60,7 +60,7 @@ public class BankAccount {
 
     //method for deposit
     public int deposit(int balance){
-        return this.balance = balance + 5;
+        return this.balance = (balance + 5);
 
     }
 
