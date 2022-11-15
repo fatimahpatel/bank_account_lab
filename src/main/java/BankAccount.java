@@ -12,7 +12,9 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    int balance(){
+
+    int deposit(){
+        System.out.println(balance)
 
     }
 }
