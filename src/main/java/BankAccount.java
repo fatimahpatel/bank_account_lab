@@ -3,7 +3,7 @@ public class BankAccount {
     String lastName;
     private String dateOfBirth;
     private int accountNumber;
-    private int balance;
+    int balance;
     public BankAccount(String firstName, String lastName,String dateOfBirth, int accountNumber, int balance){ //constructor
         this.firstName = firstName;
         this.lastName = lastName;
