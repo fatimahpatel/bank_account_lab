@@ -18,7 +18,7 @@ public class BankAccount {
     }
 
     public void setFirstName(String firstName){
-        this.firstName = firstName
+        this.firstName = firstName;
     }
 
 
