@@ -13,8 +13,8 @@ public class BankAccount {
     }
 
 
-    String deposit(int balance){
-        return "You have this much money in your account: " + balance;
+    int deposit(){
+        return this.balance;
 
     }
 }
