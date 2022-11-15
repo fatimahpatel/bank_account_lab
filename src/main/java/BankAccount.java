@@ -13,8 +13,7 @@ public class BankAccount {
     }
 
 
-    int deposit(){
-        return this.balance;
+
 
     }
 }
