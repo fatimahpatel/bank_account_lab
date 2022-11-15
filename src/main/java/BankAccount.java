@@ -10,7 +10,9 @@ public class BankAccount {
         this.dateOfBirth = dateOfBirth;
         this.accountNumber = accountNumber;
         this.balance = balance;
+    }
 
+    int balance(){
 
     }
 }
